@@ -79,7 +79,7 @@
       {{#vars}}
       if (data.hasOwnProperty('{{baseName}}')) {
         obj['{{baseName}}']{{{defaultValueWithParam}}}
-      } {{#defaultValue}}else {
+      }{{#defaultValue}}else {
         obj['{{baseName}}'] = {{{ defaultValue }}};
       }{{/defaultValue}}
       {{/vars}}
